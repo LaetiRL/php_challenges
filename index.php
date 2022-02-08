@@ -5,7 +5,6 @@ $book = [
     'Le club du suicide' => '1878',
 ];
 asort($book);
-foreach ($book as $key => $book) {
-    echo $book, " - ";
-    echo "$key\n";
+foreach ($book as $key => $value) {
+    echo $value . " - " . "$key\n";
 } 
