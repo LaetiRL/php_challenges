@@ -1,0 +1,30 @@
+.col-flex {
+    display: flex;
+    flex-direction: column;
+}
+.d-flex {
+    display: flex;
+}
+
+.bouton {
+    text-decoration: none;
+    color :black;
+    border: black solid 1px;
+    background-color: transparent;
+    box-sizing: border-box;
+    padding: 1px 6px;
+    margin-right: 10px;
+    
+}
+.bouton:hover {
+    color: rgb(204, 94, 255);
+    border: rgb(204, 94, 255) solid 1px;
+}
+
+section {
+    margin-bottom: 15px;
+}
+
+p {
+    color: rgb(206, 58, 58);
+}
